@@ -1,8 +1,17 @@
-# React + Vite
+# Formik and Yup Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates a login form using Formik and Yup for validation in a React application.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Email field requiring valid email format.
+- Password field requiring "rishiME@199".
+- Submit button initially disabled, enabling upon valid input in both fields.
+- Display error messages within input fields for user guidance.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <your-github-repo-url>
+   cd formik-yup-form
